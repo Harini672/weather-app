@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+condensed:wght@200;300;400;600;600;800&display=swap");
+*{font-family:"Roboto Condensed", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0px;
+  background-color: #c5f3f3;
+  font-family: "Roboto Condensed", sans-serif;
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.container{
+  width:300px;
+  padding: 20px;
+  background-color: rgb(210, 223, 224)));
+  border:solid ash;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0.1,0.1);
+
+}
+
+
+.search-icon img{
+  width:33px;
+  height:49px;
+  cursor:pointer;
+  margin-top:5px;
+  
+}
+.input-container{
+  width:100%;
+  display:flex;
+  align-items: center;
+  border:1px solid #9e9a9a; 
+  border-radius:5px;
+  overflow:hidden;
+}
+.cityInput{
+  flex:1;
+  height:30px;
+  border:none;
+  font-size:16px;
+  outline:none;
+padding:10px;
+  
+}
+.image{
+  text-align:center;
+  height:auto;
+  margin-bottom:10px;
+
+
+}
+.image img{
+  width:160 px;
+  height:160px;
+}
+.temp,
+.location,
+.country{
+  margin-top:5px;
+  font-size:35px;
+  color:#050000;
+  text-transform:uppercase;
+  text-align:center;
+}
+.temp{
+  font-weight: bold;
+}
+.location{
+  color:rgb(228, 228, 50);
+  font-weight:400;
+  font-size:40px;
+}
+.country{
+  font-size:18px;
+  color:#888;
+  font-weight:500;
+
+}
+.cord{
+  display:flex;
+  justify-content:center;
+  justify-content:center;
+  gap: 10px;
+  margin-top:10px;
+  text-align:center;
+}
+.cord div{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-item:center;
+  padding:10px;
+}
+.cord div span{
+  font-size:15px;
+  font-weight:500;
+  color:#050000;
+}
+.humidity-percent,
+.wind-percent,
+.cord div span:nth-child(2){
+  font-size:18px;
+  font-weight:bold;
+  color:#666;
+  padding-top:5px;
+}
+
+.icon{
+  height:37px;
+  width:37px;
+}
+
+.data-container {
+  display:flex;
+  justify-content:space-between;
+  margin-top:20px;
+}
+
+.element{
+  text-align: center;
+}
+.text{
+  font-size:12px;
+  
+  
+}
